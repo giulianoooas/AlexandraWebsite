@@ -36,7 +36,9 @@ export const Plants = (props) => {
                   style={imageStyle}
                 />
                 <br />
-                <a href={card.imageSrc}>({card.imageSrc})</a>
+                <a href={card.imageSrc} target="blank">
+                  ({card.imageSrc})
+                </a>
               </div>
               <div className="col-lg-5 lead">
                 <p>{card.description}</p>
