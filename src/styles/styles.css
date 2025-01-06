@@ -15,7 +15,7 @@ a:active {
 }
 
 .custom-button-color {
-  background-color: #2a2a2a !important;
+  background-color: #14bb1d !important;
   border-color: #2a2a2a !important;
 }
 
@@ -29,15 +29,15 @@ a:active {
 }
 
 .custom-navbar {
-  background-color: #f8f8f8 !important;
-  color: #8f8f8f !important;
+  background-color: #8fee94 !important;
+  color: #fff !important;
 }
 
 .custom-footer {
-  background-color: #2a2a2a !important;
+  background-color: #1b5206 !important;
 }
 
 .custom-info-card {
-  background-color: #f8f8f8 !important;
+  background-color: #8fee94 !important;
   color: #000 !important;
 }

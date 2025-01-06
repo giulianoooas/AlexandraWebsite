@@ -10,8 +10,8 @@ export const navbarItems = {
     className: "nav-item",
   },
   services: {
-    path: "/plants",
-    label: "Plants",
+    path: "/plants-flowers",
+    label: "Plants and Flowers",
     className: "nav-item",
   },
 };

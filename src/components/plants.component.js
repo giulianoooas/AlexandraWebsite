@@ -1,6 +1,15 @@
+import tulip from "../assets/tulip.jpg";
+import lily from "../assets/lily.jpg";
+import daisy from "../assets/daisy.jpg";
+
 export const Plants = (props) => {
+  const images = [tulip, lily, daisy];
   const cards = props.cardsServices ?? [];
   const paragraphs = props.servicesPageParagraphs ?? [];
+
+  const imageStyle = {
+    maxHeight: "30vh",
+  };
 
   return (
     <div className="container px-4 px-lg-5 lead">
@@ -22,9 +31,12 @@ export const Plants = (props) => {
               <div className="col-lg-7">
                 <img
                   className="img-fluid rounded mb-4 mb-lg-0"
-                  src={card.imageSrc}
+                  src={images[idx]}
                   alt="..."
+                  style={imageStyle}
                 />
+                <br />
+                <a href={card.imageSrc}>({card.imageSrc})</a>
               </div>
               <div className="col-lg-5 lead">
                 <p>{card.description}</p>

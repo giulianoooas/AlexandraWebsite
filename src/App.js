@@ -10,7 +10,7 @@ import {
   cardsServices,
   servicesPageParagraphs,
   servicesPageTitle,
-} from "./constants/services.constants";
+} from "./constants/nature.constants.js";
 import {
   cardsHome,
   homePageInfoObject,
@@ -41,7 +41,7 @@ function App() {
           />
           <Route path="/about" element={<About />} />
           <Route
-            path="/plants"
+            path="/plants-flowers"
             element={
               <Plants
                 cardsServices={cardsServices}

@@ -8,7 +8,7 @@ export const cardsHome = [
     text: `Lilium longiflorum flower – 1. stigma, 2. style, 3. anthers, 4. filament, 5. tepal Lilies are tall perennials ranging in height from 1–6 ft (30–180 cm). They form naked or tunicless scaly underground bulbs which are their organs of perennation.`,
   },
   {
-    title: "Daisy flower",
+    title: "Daisy",
     text: `Bellis perennis is a perennial herbaceous plant growing to 20 centimetres (8 inches) in height.`,
   },
 ];
