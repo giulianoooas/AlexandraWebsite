@@ -1,0 +1,43 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.custom-button-color {
+  background-color: #2a2a2a !important;
+  border-color: #2a2a2a !important;
+}
+
+.custom-button-color:hover {
+  background-color: #e74c3c !important;
+  border-color: #e74c3c !important;
+}
+
+.custom-text-color {
+  color: #8f8f8f !important;
+}
+
+.custom-navbar {
+  background-color: #f8f8f8 !important;
+  color: #8f8f8f !important;
+}
+
+.custom-footer {
+  background-color: #2a2a2a !important;
+}
+
+.custom-info-card {
+  background-color: #f8f8f8 !important;
+  color: #000 !important;
+}
