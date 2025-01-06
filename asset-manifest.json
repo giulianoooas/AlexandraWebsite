@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AlexandraWebsite/static/css/main.3064f9e8.css",
+    "main.js": "/AlexandraWebsite/static/js/main.6f18fc44.js",
+    "static/js/453.daf9836a.chunk.js": "/AlexandraWebsite/static/js/453.daf9836a.chunk.js",
+    "static/media/home_pic.jpg": "/AlexandraWebsite/static/media/home_pic.6eee9b26b5921ca41810.jpg",
+    "index.html": "/AlexandraWebsite/index.html",
+    "main.3064f9e8.css.map": "/AlexandraWebsite/static/css/main.3064f9e8.css.map",
+    "main.6f18fc44.js.map": "/AlexandraWebsite/static/js/main.6f18fc44.js.map",
+    "453.daf9836a.chunk.js.map": "/AlexandraWebsite/static/js/453.daf9836a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3064f9e8.css",
+    "static/js/main.6f18fc44.js"
+  ]
+}
