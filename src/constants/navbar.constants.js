@@ -1,3 +1,5 @@
+import { Contact } from "../components/contact.component";
+
 export const navbarItems = {
   home: {
     path: "/",
@@ -12,6 +14,11 @@ export const navbarItems = {
   services: {
     path: "/plants-flowers",
     label: "Plants and Flowers",
+    className: "nav-item",
+  },
+  contact: {
+    path: "/contact",
+    label: "Contact",
     className: "nav-item",
   },
 };

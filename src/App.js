@@ -20,6 +20,7 @@ import {
 import { Home } from "./components/home.component.js";
 import { About } from "./components/about.component.js";
 import { Plants } from "./components/plants.component.js";
+import { Contact } from "./components/contact.component.js";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
               />
             }
           />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </HashRouter>
