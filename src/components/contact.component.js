@@ -1,5 +1,5 @@
 export const Contact = () => {
-  const email = "email";
+  const email = "alexandra10905st@gmail.com";
 
   const formStyle = {
     height: "81vh",
