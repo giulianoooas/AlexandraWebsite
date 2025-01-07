@@ -10,15 +10,7 @@ export const Contact = () => {
   };
 
   const divStyle = {
-    width: "50vw",
-    marginTop: "5rem",
-  };
-  const inputStyle = {
-    width: "70%",
-  };
-
-  const labelStyle = {
-    width: "20%",
+    marginTop: "3rem",
   };
 
   const buttonStyle = {
@@ -27,13 +19,16 @@ export const Contact = () => {
   };
 
   function sendMail() {
-    const subject = document.getElementById("contactSubject")?.value || "";
-    const message = document.getElementById("contactMessage")?.value || "";
+    const subject = (
+      document.getElementById("contactSubject")?.value || ""
+    ).replace(/ /g, "%20");
+    const message = (
+      document.getElementById("contactMessage")?.value || ""
+    ).replace(/ /g, "%20");
 
     const link = document.createElement("a");
 
-    link.href = `mailto:${email}?subject:${subject}&body:${message}`;
-    console.log(link.href);
+    link.href = `mailto:${email}?subject=${subject}&body=${message}`;
 
     link.click();
   }
@@ -46,29 +41,25 @@ export const Contact = () => {
         </div>
       </div>
 
-      <div style={divStyle}>
-        <label htmlFor="subject" style={labelStyle}>
-          Subject
-        </label>
+      <div style={divStyle} className="form-group">
+        <label htmlFor="contactSubject">Subject</label>
         <input
           id="contactSubject"
-          name="subject"
+          name="contactSubject"
           type="text"
+          className="form-control"
           placeholder="Subject"
-          style={inputStyle}
         ></input>
       </div>
 
-      <div style={divStyle}>
-        <label htmlFor="message" style={labelStyle}>
-          Message
-        </label>
+      <div style={divStyle} className="form-group">
+        <label htmlFor="contactMessage">Message</label>
         <input
           id="contactMessage"
-          name="message"
+          name="contactMessage"
           type="text"
+          className="form-control"
           placeholder="Message"
-          style={inputStyle}
         ></input>
       </div>
 
