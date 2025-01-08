@@ -70,6 +70,17 @@ export const Contact = () => {
       >
         Send mail
       </button>
+
+      <div style={divStyle}>
+        For mor information
+        <a
+          href="../assets/cv.pdf"
+          download={"my_cv.pdf"}
+          style={{ marginLeft: "5px" }}
+        >
+          click to download my cv
+        </a>
+      </div>
     </div>
   );
 };
