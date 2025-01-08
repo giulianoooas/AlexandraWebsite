@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AlexandraWebsite/static/css/main.82fff774.css",
-    "main.js": "/AlexandraWebsite/static/js/main.59f6e0bf.js",
+    "main.js": "/AlexandraWebsite/static/js/main.70f9a99a.js",
     "static/js/453.daf9836a.chunk.js": "/AlexandraWebsite/static/js/453.daf9836a.chunk.js",
     "static/media/daisy.jpg": "/AlexandraWebsite/static/media/daisy.b0d93b5810d940449672.jpg",
     "static/media/tulip.jpg": "/AlexandraWebsite/static/media/tulip.69f782be4c30d7ed34ac.jpg",
@@ -9,11 +9,11 @@
     "static/media/lily.jpg": "/AlexandraWebsite/static/media/lily.37ce2ef6e176af3497f9.jpg",
     "index.html": "/AlexandraWebsite/index.html",
     "main.82fff774.css.map": "/AlexandraWebsite/static/css/main.82fff774.css.map",
-    "main.59f6e0bf.js.map": "/AlexandraWebsite/static/js/main.59f6e0bf.js.map",
+    "main.70f9a99a.js.map": "/AlexandraWebsite/static/js/main.70f9a99a.js.map",
     "453.daf9836a.chunk.js.map": "/AlexandraWebsite/static/js/453.daf9836a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82fff774.css",
-    "static/js/main.59f6e0bf.js"
+    "static/js/main.70f9a99a.js"
   ]
 }
