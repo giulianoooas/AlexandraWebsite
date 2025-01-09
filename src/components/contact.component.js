@@ -33,6 +33,16 @@ export const Contact = () => {
     link.click();
   }
 
+  function downloadPDF() {
+    const pdfUrl = "CV.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "cv.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
   return (
     <div style={formStyle}>
       <div className="gx-4 gx-lg-5 align-items-center my-5 text-center">
@@ -71,16 +81,9 @@ export const Contact = () => {
         Send mail
       </button>
 
-      <div style={divStyle}>
-        For mor information
-        <a
-          href="../assets/cv.pdf"
-          download={"my_cv.pdf"}
-          style={{ marginLeft: "5px" }}
-        >
-          click to download my cv
-        </a>
-      </div>
+      <button style={divStyle} onClick={downloadPDF} className="btn">
+        For more information click to download my CV
+      </button>
     </div>
   );
 };

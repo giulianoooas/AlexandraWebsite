@@ -1,5 +1,3 @@
-import { Form } from "react-router-dom";
-
 export const Footer = () => {
   const year = new Date().getFullYear();
 

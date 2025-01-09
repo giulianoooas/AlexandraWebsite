@@ -1,5 +1,3 @@
-import { Contact } from "../components/contact.component";
-
 export const navbarItems = {
   home: {
     path: "/",
