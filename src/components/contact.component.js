@@ -1,3 +1,5 @@
+import CV from "../assets/cv.jpg";
+
 export const Contact = () => {
   const email = "alexandra10905st@gmail.com";
 
@@ -31,16 +33,6 @@ export const Contact = () => {
     link.href = `mailto:${email}?subject=${subject}&body=${message}`;
 
     link.click();
-  }
-
-  function downloadPDF() {
-    const pdfUrl = "CV.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "cv.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
   }
 
   return (
@@ -81,9 +73,9 @@ export const Contact = () => {
         Send mail
       </button>
 
-      <button style={divStyle} onClick={downloadPDF} className="btn">
+      <a style={divStyle} href={CV} download="cv.jpg" className="btn">
         For more information click to download my CV
-      </button>
+      </a>
     </div>
   );
 };
