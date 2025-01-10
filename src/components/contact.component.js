@@ -1,4 +1,5 @@
 import CV from "../assets/cv.jpg";
+import { BUTTON_COLOR } from "../constants/style.constants";
 
 export const Contact = () => {
   const email = "alexandra10905st@gmail.com";
@@ -17,7 +18,8 @@ export const Contact = () => {
 
   const buttonStyle = {
     marginTop: "1rem",
-    backgroundColor: "#1b5206",
+    backgroundColor: BUTTON_COLOR,
+    borderColor: BUTTON_COLOR,
   };
 
   function sendMail() {
