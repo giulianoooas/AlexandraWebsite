@@ -4,7 +4,7 @@ export const Contact = () => {
   const email = "alexandra10905st@gmail.com";
 
   const formStyle = {
-    height: "81vh",
+    minHeight: "81vh",
     display: "flex",
     flexDirection: "column",
     justifyContent: "flex-start",
